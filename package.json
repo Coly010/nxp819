@@ -2,7 +2,9 @@
   "name": "@nxp819/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dbg": "npx nx build app1"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",
