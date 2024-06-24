@@ -4,10 +4,12 @@ import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import {Lib1} from "@nxp819/lib1";
 
 export function App() {
   return (
     <div>
+      <Lib1 />
       <NxWelcome title="app1" />
 
       {/* START: routes */}
